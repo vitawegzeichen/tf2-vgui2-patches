@@ -215,7 +215,7 @@
 		"ypos"				"5"
 		"ypos_minmode"		"-5"
 		"zpos"				"0"
-		"wide"				"135"
+		"wide"				"140"
 		"tall"				"28"
 		"visible"			"0"
 
@@ -242,7 +242,7 @@
 		"ypos"				"5"
 		"ypos_minmode"		"-5"
 		"zpos"				"0"
-		"wide"				"135"
+		"wide"				"140"
 		"tall"				"28"
 		"visible"			"0"
 
@@ -407,11 +407,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-52" //c-45
+		"team1_base_x"	"c-50" //c-45
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c54" //c47
+		"team2_base_x"	"c52" //c47
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -421,17 +421,19 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"119 62 61 0"
+			"color_portrait_bg_blue"	"62 81 101 0"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
+			"color_bar_health_high"	"TanLight"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
+			"color_portrait_bg_blue_local_player" "235 226 202 100"
+			"color_portrait_bg_red_local_player" "235 226 202 100"
 			
 			"playername"
 			{
@@ -493,7 +495,7 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "80 80 80 255"
+				"bgcolor_override"	   "TanLight"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
@@ -502,10 +504,10 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
-				"zpos"					"6"
+				"ypos"					"0"
+				"zpos"					"4"
 				"wide"					"f0"
-				"tall"					"2"				
+				"tall"					"19"				
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
@@ -514,7 +516,7 @@
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
+				"fgcolor_override"	   "235 226 202 100"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
