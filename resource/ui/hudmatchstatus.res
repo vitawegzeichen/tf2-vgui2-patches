@@ -222,7 +222,7 @@
 		"proportionaltoaparent"	"1"
 		"teambg_3"				"../hud/color_panel_blu"
 		"teambg_2"				"../hud/color_panel_blu"
-		"teambg_1"		"../vgui/replay/thumbnails/blank.vmt"
+		"teambg_1"		"../vgui/replay/thumbnails/blank.vmt"	//invisible when spectating
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -251,7 +251,7 @@
 		"proportionaltoaparent"	"1"
 		"teambg_3"				"../hud/color_panel_red"
 		"teambg_2"				"../hud/color_panel_red"
-		"teambg_1"		"../vgui/replay/thumbnails/blank.vmt"
+		"teambg_1"		"../vgui/replay/thumbnails/blank.vmt"	//invisible when spectating
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
