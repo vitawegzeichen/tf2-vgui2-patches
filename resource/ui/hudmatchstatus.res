@@ -200,70 +200,13 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
+		"ypos_minmode"	"-12"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 	}	
-	
-	"BGBlueTeam"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"BGBlueTeam"
-		"xpos"				"cs-0.5-116"
-		"ypos"				"5"
-		"ypos_minmode"		"-5"
-		"zpos"				"0"
-		"wide"				"140"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"teambg_3"				"../hud/color_panel_blu"
-		"teambg_2"				"../hud/color_panel_blu"
-		"teambg_1"		"../vgui/replay/thumbnails/blank.vmt"	//invisible when spectating
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	  
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
-	
-	"BGRedTeam"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"BGRedTeam"
-		"xpos"				"cs-0.5+117"
-		"ypos"				"5"
-		"ypos_minmode"		"-5"
-		"zpos"				"0"
-		"wide"				"140"
-		"tall"				"28"
-		"visible"			"0"
-
-		"proportionaltoaparent"	"1"
-		"teambg_3"				"../hud/color_panel_red"
-		"teambg_2"				"../hud/color_panel_red"
-		"teambg_1"		"../vgui/replay/thumbnails/blank.vmt"	//invisible when spectating
-		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	  
-
-		if_match
-		{
-			"visible"		"1"
-		}
-	}
 
 	"RankUpLabel"
 	{	
@@ -383,7 +326,7 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
+				"ypos_minmode"	"2"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
@@ -425,8 +368,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 0"
-			"color_portrait_bg_blue"	"62 81 101 0"
+			"color_portrait_bg_red"	"119 62 61 155"
+			"color_portrait_bg_blue"	"62 81 101 155"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"TanLight"
@@ -444,14 +387,16 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"xpos"			"0"
+				"ypos"			"11"
 				"zpos"			"5"
 				"wide"			"50"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
+				"labelText"		"%playername%"
+				"bgcolor_override"	"80 80 80 155"
 			}
 			"classimage"
 			{
