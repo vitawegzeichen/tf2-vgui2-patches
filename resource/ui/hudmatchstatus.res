@@ -334,13 +334,13 @@
 			}
 		}	
 	}
+
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"9"
-		"ypos_minmode"	"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"

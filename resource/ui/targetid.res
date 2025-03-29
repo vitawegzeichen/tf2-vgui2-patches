@@ -267,7 +267,7 @@
         "enabled"        "1"
         "image"            ""
         "scaleImage"    "1"
-		"border"		"CrosshatchedBackground"
+		"border"		"AvatarBorder"
         "color_outline"    "52 48 45 255"
     }
 }
