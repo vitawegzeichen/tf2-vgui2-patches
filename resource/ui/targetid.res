@@ -267,7 +267,7 @@
         "enabled"        "1"
         "image"            ""
         "scaleImage"    "1"
-		"border"		"AvatarBorder"
+		"border"		"ComboBoxBorder"
         "color_outline"    "52 48 45 255"
     }
 }
