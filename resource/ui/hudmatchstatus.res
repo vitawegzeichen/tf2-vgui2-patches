@@ -211,7 +211,7 @@
 			"xpos"		"82"
 			"ypos"		"0"
 			"zpos"		"2"
-			"image"		"../hud/comp_round_timer"
+			"image"		"../hud/comp_round_notimer"
 		}
 	}	
 
@@ -318,6 +318,24 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
+
+		"Background"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"Background"
+			"xpos"			"-4"
+			"ypos"			"0"
+			"wide"			"137"
+			"tall"			"32"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"		"../hud/comp_round_timer"
+			
+			if_match
+			{
+				"visible" 	"1"
+			}
+		}
 
 		if_match
 		{
