@@ -208,10 +208,15 @@
 		
 		"Background"
 		{
-			"xpos"		"82"
-			"ypos"		"0"
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"Background"
+			"xpos"		"91"
+			"ypos"		"2"
 			"zpos"		"2"
-			"image"		"../hud/comp_round_notimer"
+			"wide"		"119"
+			"tall"		"31"
+			"image"		"../hud/comp_round_timer"
+			"scaleImage"	"1"
 		}
 	}	
 
@@ -220,26 +225,19 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"BGFrame"
 		"xpos"				"cs-0.5"
-		"ypos"				"-5"
+		"ypos"				"-50"
 		"zpos"				"0"
-		"wide"				"375"
-		"tall"				"28"
+		"wide"				"412"
+		"tall"				"83"
 		"visible"			"0"
 
-		"proportionaltoaparent"	"1"
-		"image"				"../hud/color_panel_brown"
-		"teambg_1"		"/screens/transparent"
-		"teambg_2"		"../hud/color_panel_brown"
-		"teambg_2_lodef"	"../hud/color_panel_brown"
-		"teambg_3"		"../hud/color_panel_brown"
-		"teambg_3_lodef"	"../hud/color_panel_brown"
-					
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"6"
+		"image"			"gradient_radial_pure_black"
 
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+			
+		"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"24"
 
 		if_match
 		{
@@ -319,24 +317,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
-		"Background"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"-4"
-			"ypos"			"0"
-			"wide"			"137"
-			"tall"			"32"
-			"visible"		"0"
-			"enabled"		"1"
-			"image"		"../hud/comp_round_timer"
-			
-			if_match
-			{
-				"visible" 	"1"
-			}
-		}
-
 		if_match
 		{
 			"xpos"					"cs-0.5"
@@ -410,11 +390,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-49"
+		"team1_base_x"	"c-45"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c51"
+		"team2_base_x"	"c47"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -424,10 +404,10 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"79 54 52 255"
-			"color_portrait_bg_blue_dead"	"44 49 51 255"
+			"color_portrait_bg_red"	"159 54 55 100"
+			"color_portrait_bg_blue"	"101 122 140 100"
+			"color_portrait_bg_red_dead"	"79 54 52 100"
+			"color_portrait_bg_blue_dead"	"44 49 51 100"
 			"color_bar_health_high"	"84 191 58 255"
 			"color_bar_health_med"	"191 183 58 255"
 			"percentage_health_med"	"0.6"
@@ -435,6 +415,8 @@
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
+			"color_portrait_bg_red_local_player"	"191 169 171 100"
+			"color_portrait_bg_blue_local_player"	"169 171 196 100"
 			
 			"playername"
 			{
