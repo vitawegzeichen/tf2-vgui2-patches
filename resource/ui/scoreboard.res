@@ -75,26 +75,6 @@
 		}
 	}
 
-	"ScoresBlueGradientBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ScoresBlueGradientBG"
-		"xpos"				"cs-1"
-		"ypos"				"110"
-		"zpos"				"1"
-		"wide"				"281"
-		"tall"				"20"
-		"visible"			"1"
-
-		"image"			"gradient_pure_black"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-
 	"BlueScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -108,7 +88,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"79 117 143 100"
+		"fillcolor"		"99 120 137 100"
 		"scaleImage"		"1"
 		"PaintBackgroundType"	"0"
 		
@@ -148,26 +128,6 @@
 		"bgcolor_override"	"117 107 94 255"
 	}
 
-	"ScoresRedGradientBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"ScoresRedGradientBG"
-		"xpos"				"cs0"
-		"ypos"				"110"
-		"zpos"				"1"
-		"wide"				"281"
-		"tall"				"20"
-		"visible"			"1"
-
-		"image"			"gradient_pure_black"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-
 	"RedScoreBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -181,7 +141,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"189 58 60 100"
+		"fillcolor"		"156 53 54 100"
 		"scaleImage"		"1"
 		"PaintBackgroundType"	"0"
 		

@@ -92,7 +92,7 @@
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"18"
-			"zpos"			"1"
+			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
 			"visible"		"1"
