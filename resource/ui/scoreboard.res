@@ -257,7 +257,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"TFFatLineBorder"
 	}
 								
 	"BlueTeamLabels"
@@ -814,7 +814,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"OutlinedGreyBox"
+		"border"		"TFFatLineBorder"
 	}
 	"PlayerNameLabel"
 	{
